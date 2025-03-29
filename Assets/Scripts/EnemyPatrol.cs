@@ -1,42 +1,51 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class EnemyPatrol : MonoBehaviour
 {
     public Transform[] waypoints;
     public float speed = 2f;
+    public float waitTime = 1f;
+    public float waypointTolerance = 0.3f;
 
     private int currentIndex = 0;
-    private bool movingForward = true;
+    private int direction = 1;
+    private float waitTimer = 0f;
+    private Rigidbody rb;
 
-    void Update()
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
+    void FixedUpdate()
     {
         if (waypoints.Length == 0) return;
 
         Transform target = waypoints[currentIndex];
-        Vector3 direction = target.position - transform.position;
-        transform.position += direction.normalized * speed * Time.deltaTime;
+        Vector3 directionToTarget = target.position - transform.position;
 
-        if (Vector3.Distance(transform.position, target.position) < 0.2f)
+        // Reached target
+        if (directionToTarget.magnitude < waypointTolerance)
         {
-            if (movingForward)
+            waitTimer += Time.fixedDeltaTime;
+            if (waitTimer >= waitTime)
             {
-                currentIndex++;
-                if (currentIndex >= waypoints.Length)
+                waitTimer = 0f;
+                currentIndex += direction;
+
+                if (currentIndex >= waypoints.Length || currentIndex < 0)
                 {
-                    currentIndex = waypoints.Length - 2;
-                    movingForward = false;
+                    direction *= -1;
+                    currentIndex += direction;
                 }
             }
-            else
-            {
-                currentIndex--;
-                if (currentIndex < 0)
-                {
-                    currentIndex = 1;
-                    movingForward = true;
-                }
-            }
+            return;
         }
+
+        Vector3 moveDir = directionToTarget.normalized;
+        Vector3 newPos = transform.position + moveDir * speed * Time.fixedDeltaTime;
+        rb.MovePosition(newPos);
     }
 }
 
