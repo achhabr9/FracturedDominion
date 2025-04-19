@@ -1054,6 +1054,75 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2415eee8dc9a7af4bbd6563b6502cea1, type: 3}
+--- !u!1001 &54831267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3703021710006444758, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_Name
+      value: SURVIVAL ARMORED TRUCK 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 54.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7941594
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6077095
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 74.848
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
 --- !u!1 &63570010
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,6 +2413,75 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e4d87ed8442a2a40b13957dd237e343, type: 3}
+--- !u!1001 &171209606
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3703021710006444758, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_Name
+      value: SURVIVAL ARMORED TRUCK 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -40.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 64.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7941594
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6077095
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 74.848
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
 --- !u!1 &174541283
 GameObject:
   m_ObjectHideFlags: 0
@@ -39113,6 +39251,75 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50b05f5887ffab04cada141d5819faca, type: 3}
+--- !u!1001 &1929362609
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3703021710006444758, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_Name
+      value: SURVIVAL ARMORED TRUCK 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -33.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 36.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7941594
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6077095
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 74.848
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
 --- !u!1001 &1934092564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40715,6 +40922,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991472237}
   m_CullTransparentMesh: 1
+--- !u!1001 &1996869051
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3703021710006444758, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_Name
+      value: SURVIVAL ARMORED TRUCK 1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.60635376
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7951951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 105.347
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046508508920559724, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f41fc8de3b857f04b8ab582ab168e44e, type: 3}
 --- !u!1 &2001245371
 GameObject:
   m_ObjectHideFlags: 0
@@ -58877,3 +59153,7 @@ SceneRoots:
   - {fileID: 134881022}
   - {fileID: 1222655433}
   - {fileID: 1552062597}
+  - {fileID: 1929362609}
+  - {fileID: 171209606}
+  - {fileID: 54831267}
+  - {fileID: 1996869051}
