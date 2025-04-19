@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +7,8 @@ public class FactionReputation : MonoBehaviour
     public static FactionReputation Instance;
 
     private Dictionary<string, int> reputation = new Dictionary<string, int>();
+
+    public event Action OnReputationChanged;
 
     private void Awake()
     {
@@ -18,6 +21,8 @@ public class FactionReputation : MonoBehaviour
             reputation[factionName] = 0;
 
         reputation[factionName] += amount;
+
+        OnReputationChanged?.Invoke(); // Notify listeners
 
         Debug.Log($"Reputation with {factionName} is now {reputation[factionName]}");
     }
