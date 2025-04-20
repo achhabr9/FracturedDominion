@@ -27959,6 +27959,8 @@ MonoBehaviour:
   abilities:
   - {fileID: 11400000, guid: 4a30a571607684dc0a59f9c1bb10eb5d, type: 2}
   - {fileID: 11400000, guid: 2fcc9b4b11dd04d83acfdbc37faf2f42, type: 2}
+  - {fileID: 11400000, guid: aedb0fca761ad453f906dd4ab6bd54d4, type: 2}
+  - {fileID: 11400000, guid: 575cbbaae40134d9db991de0442ffcfb, type: 2}
   abilityButtonPrefab: {fileID: 3010225281229135377, guid: c13093700263f4e9b88016a7a3c357e6, type: 3}
   canvas: {fileID: 1552062596}
   abilityContainer: {fileID: 2072948584}
