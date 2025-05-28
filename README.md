@@ -1,2 +1,2 @@
 # FracturedDominion
-4483 Project
+An open world adventure set in a deeply divided area rich with secrets.
